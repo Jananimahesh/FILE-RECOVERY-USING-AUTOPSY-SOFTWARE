@@ -38,7 +38,10 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 # Download Autopsy from:
 # https://www.autopsy.com/
 # Install following the setup wizard.
+
 ```
+<img width="458" height="243" alt="image" src="https://github.com/user-attachments/assets/5fefdab7-99fd-40d7-96da-507139c63a1d" />
+
 ### Create a New Case
 ```
 # File → New Case
@@ -46,12 +49,16 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 # Choose Base Directory: C:\Cases\Deleted_File_Recovery
 # Click Finish
 ```
+<img width="478" height="296" alt="image" src="https://github.com/user-attachments/assets/5567c550-9fdf-4511-9f8d-4f7ab8119818" />
+
 ### Add Disk Image
 ```
 # Add Data Source → Disk Image or VM File
 # Browse to: C:\forensics\disk.dd
 # Click Next
 ```
+<img width="335" height="299" alt="image" src="https://github.com/user-attachments/assets/46c99788-4662-4c86-ae94-63aabb636430" />
+
 ### Run Ingest Modules
 ```# Select:
 # - File System Analysis
@@ -59,11 +66,16 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 # - Data Recovery / Carving
 # Click Finish
 ```
+<img width="291" height="185" alt="image" src="https://github.com/user-attachments/assets/9627eed0-ba66-43ed-aaf2-29fea75d7ece" />
+
 ### Locate Deleted Files
 ```
 # Navigate to 'Deleted Files' section in the tree view
 # Review metadata (size, hash, timestamps)
 ```
+
+
+
 ### Export Deleted Files
 ```
 # Right-click → Extract File(s)
@@ -72,6 +84,22 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 
 ## OUTPUT:
 Recovered Deleted File List and Details
+
+Folder before deleting the files
+
+<img width="689" height="452" alt="image" src="https://github.com/user-attachments/assets/5e481ecc-d423-4b07-b674-d8a2af80b48c" />
+
+Folder after deleting the files
+
+<img width="697" height="469" alt="image" src="https://github.com/user-attachments/assets/e77a7a16-91dc-43fc-9b82-49e010cfb565" />
+
+Folder after extracting the deleted images using autopsy
+
+<img width="689" height="452" alt="image" src="https://github.com/user-attachments/assets/5e481ecc-d423-4b07-b674-d8a2af80b48c" />
+
+
+
+
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
